@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(83,1,26);
+background: linear-gradient(90deg, rgba(83,1,26,1) 0%, rgba(143,31,68,1) 35%, rgba(57,56,56,1) 100%);
+}
+
+.container{
+    height: 500px;
+    width: 60%;
+    border: 3px solid black;
+    position: relative;
+    margin: 6rem auto;
+    background: url(images/2.jpg) center/cover ;
+    
+}
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: .1%;
+    color: white;
+    cursor: pointer;
+}
+.btn-right{
+    position: absolute;
+    top: 50%;
+    left: 97.7%;
+    color: white;
+    background-color: none;
+    cursor: pointer;
+}
